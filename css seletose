@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento de CSS</title>
+    <style>
+        /* Estilo para os links */
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: lemonchiffon;
+        }
+
+        /* Estilo para parágrafos gerais */
+        p {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para parágrafos após h1 */
+        h1 + p {
+            font-weight: bold;
+        }
+
+        /* Estilo para classe .destaque */
+        .destaque {
+            font-family: Arial, sans-serif;
+        }
+
+        .destaque p {
+            font-weight: bold;
+        }
+
+        .destaque strong {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Treinamento em CSS</h1>
+    <p>Este parágrafo é um exemplo geral de estilização de texto utilizando CSS. O propósito deste conteúdo é exclusivamente educacional.</p>
+
+    <p>O objetivo deste exercício é compreender como customizar elementos textuais e links em uma página da web.</p>
+
+    <h1>Seção de Teste</h1>
+    <p>Este parágrafo, por estar logo após o título, estará em negrito como definido no CSS.</p>
+
+    <h2>Links Personalizados</h2>
+    <p>
+        Confira este <a href="#">link de exemplo</a>. Passe o mouse sobre ele para ver a mudança de cor. Este recurso é útil para destacar links interativos.
+    </p>
+
+    <h2>Classe Destaque</h2>
+    <div class="destaque">
+        <p>Este parágrafo foi estilizado com a classe <strong>destaque</strong> e apresenta texto em negrito.</p>
+        <p>Veja também como o elemento <strong>strong</strong> dentro da classe recebe a cor vermelha.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 - Esta página foi criada como parte de um treinamento de CSS para o curso de desenvolvimento web.</p>
+    </footer>
+</body>
+</html>
